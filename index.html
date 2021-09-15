@@ -7,30 +7,40 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Lato&family=Playfair+Display&display=swap" rel="stylesheet">
   <style>
-    /* Remove the navbar's default margin-bottom and rounded borders */ 
-    p,li,ul{
-        font-family:Arial, Helvetica, sans-serif;
-    }
-    h1{
-        font-family: 'Times New Roman', Times, serif;
-    }
+      #bround{
+    background-image: url(pics/background.jpg);   
+    height: 90%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+    
+h1{
+font-family: 'Playfair Display', serif;
+}
+p,ul,li{
+  font-family: 'Lato', sans-serif;
+}
+    
     .navbar {
       margin-bottom: 0;
       border-radius: 0;
       
     }
     
-    /* Add a gray background color and some padding to the footer */
     footer {
       background-color:black;
       padding: 25px;
     }
+
     #P2,#P4{
         background-color: rgb(236, 234, 234);
         padding: 64px;
         min-width: 100%;
     }
+
     #P1,#P3 {
         background-color: rgb(255, 255, 255);
         padding: 64px;
@@ -39,6 +49,7 @@
     
   </style>
 </head>
+
 <body>
 
 <nav class="navbar navbar-inverse navbar-fixed-top">
@@ -61,21 +72,6 @@
     </div>
   </div>
 </nav>
-<style>
-  #bround{
-    background-image: url(pics/background.jpg);
-    /* Full height */
-  height: 90%;
-
-/* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 100%;
-  
-  }
- 
-</style>
-
 <div class="jumbotron"id="bround" style="padding: 64px;color: white;">
   <div class="container text-center">
     <h1>My Portfolio</h1>      
@@ -96,21 +92,20 @@
 </div>
 
 <div class="container" id="P1">
-    <div class="row"></div>
-      <div class="col-sm-4">
-            <img src="pics/background.jpg" alt="random" class="img-thumbnail">
-      </div>   
-      <div class="col-sm-8">
-            <h1>Project 1</h1>
-            <p >
-                Lorem ipsum dolor sit amet, consectetur 
-                adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea 
-                commodo consequat.
-            </p>
-        </div>
-                   
-    </div>
+  <div class="row"></div>
+     <div class="col-sm-4">
+           <img src="pics/background.jpg" alt="random" class="img-thumbnail">
+     </div>   
+     <div class="col-sm-8">
+           <h1>Project 1</h1>
+           <p >
+               Lorem ipsum dolor sit amet, consectetur 
+               adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea 
+               commodo consequat.
+           </p>
+     </div>                  
+   </div>
 </div>   
 
 <div class="container" id="P2">
@@ -171,4 +166,5 @@
 </footer>
 
 </body>
+
 </html>
