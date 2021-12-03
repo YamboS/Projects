@@ -16,59 +16,58 @@
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
   gtag('config', 'G-B036YCTXQW');
-</script>
+  </script>
 
   <style>
-      #bround{
+    #bround{
     background-image: url(pics/background.jpg);   
     height: 90%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
   }
-    
-h1{
-font-family: 'Playfair Display', serif;
-}
-p,ul,li,h5{
-  font-family: 'Lato', sans-serif;
-}
-    
-    .navbar {
-      margin-bottom: 0;
-      border-radius: 0;
       
-    }
+  h1{
+    font-family: 'Playfair Display', serif;
+  }
+  p,ul,li,h5{
+    font-family: 'Lato', sans-serif;
+  }
     
-    footer {
-      background-color:black;
-      padding: 25px;
-    }
+  .navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+      
+  }
+    
+  footer {
+    background-color:black;
+    padding: 25px;
+  }
 
-    #P2,#P4{
-        background-color: rgb(236, 234, 234);
-        padding: 64px;
-        min-width: 100%;
-    }
+  #P2,#P4{
+    background-color: rgb(236, 234, 234);
+    padding: 64px;
+    min-width: 100%;
+  }
 
-    #P1,#P3 {
-        background-color: rgb(255, 255, 255);
-        padding: 64px;
-        min-width: 100%;
-    }
-    .img-thumbnail {
+  #P1,#P3 {
+    background-color: rgb(255, 255, 255);
+    padding: 64px;
+    min-width: 100%;
+  }
+  .img-thumbnail {
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
-    }
+  }
 
   .img-thumbnail:hover {
     filter: none;
     -webkit-filter: grayscale(0);
   }
-
-
-
-
+  #section{
+    margin-left:75px ;
+  }
   </style>
 </head>
 
@@ -90,12 +89,12 @@ p,ul,li,h5{
         <li><a href="#P2" >Project 2</a></li>
         <li><a href="#P3" >Project 3</a></li>
         <li><a href="#P4" >Project 4</a></li>
-        
       </ul>
     </div>
   </div>
 </nav>
-<div class="jumbotron"id="bround" style="padding: 64px;color: white;">
+
+<div class="jumbotron" id="bround" style="padding: 64px;color: rgb(255, 255, 255);">
   <div class="container text-center">
     <h1>Project Portfolio</h1>      
     <p>By Samuel S. Yambo</p>
@@ -103,87 +102,106 @@ p,ul,li,h5{
 </div>
 
 <div class="container" id="P1">
-  <div class="row"></div>
-     <div class="col-sm-4">
-      <a href="#page">
-        <img src="pics/schedule.jpg" alt="random" class="img-thumbnail">
-      </a>
-     </div>   
-     <div class="col-sm-8">
-           <h1>Cpu scheduler simulation</h1>
-           <p >
-               Lorem ipsum dolor sit amet, consectetur 
-               adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea 
-               commodo consequat.
-           </p>
-     </div>                  
-   </div>
+  <div class="col-sm-4">
+    <a href="#page">
+      <img src="pics/schedule.jpg" alt="random" class="img-thumbnail">
+    </a>
+  </div>   
+  <div class="col-sm-6" id="section">
+    <h1>Cpu scheduler simulation</h1>
+    <p>
+      Implemented 3 CPU scheduling algorithms 
+      simulated and evaluated each with the set of eight processes
+      <ul>
+        <li>FCFS non-preemptive (partial results provided)</li>
+        <li>SJF non-preemptive </li>
+        <li>Multilevel Feedback Queue (absolute priority in higher queues)</li>
+        <ul>
+          <li>Queue 1 uses RR scheduling with Tq = 5</li>
+          <li>Queue 2 uses RR scheduling with Tq = 10</li>
+          <li>Queue 3 uses FCFS</li>
+        </ul>
+      </ul>
+    </p>
+  </div>                         
+  <div class="col-sm-2"></div>
 </div>   
 
 <div class="container" id="P2">
-    <div class="row"></div>
-        <div class="col-sm-4">
-          <a href="#page">
-            <img src="pics/list.jpg" alt="random" class="img-thumbnail">
-          </a>    
-        </div>
-         <div class="col-sm-8">
-            <h1>Linked list</h1>
-            <h5 >
-                Lorem ipsum dolor sit amet, consectetur 
-                adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea 
-                commodo consequat.
-            </h5>
-        </div>            
-    </div>
+  <div class="col-sm-4">
+    <a href="#page">
+      <img src="pics/list.jpg" alt="random" class="img-thumbnail">
+    </a>    
+  </div>
+  <div class="col-sm-6" id="section">
+    <h1>Linked list</h1>
+      <h5 >
+        Lorem ipsum dolor sit amet, consectetur 
+        adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea 
+        commodo consequat.
+      </h5>
+  </div>            
+  <div class="col-sm-2"></div>
 </div>
 
 <div class="container" id="P3">
-    <div class="row"></div>
-    <div class="col-sm-4">
-      <a href="#page">
-        <img src="pics/flower.jpg" alt="random" class="img-thumbnail">
-      </a>
-      </div>  
-      <div class="col-sm-8">
-            <h1>Iris flower set</h1>
-            <h5 >
-                Lorem ipsum dolor sit amet, consectetur 
-                adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea 
-                commodo consequat.
-            </h5>
-        </div>
-                    
-    </div>
-</div>   
+  <div class="col-sm-4">
+    <a href="#page">
+      <img src="pics/flower.jpg" alt="random" class="img-thumbnail">
+    </a>
+  </div>  
+  <div class="col-sm-6" id="section">
+    <h1>Iris flower set</h1>
+    <p>
+        For each of the four flower attributes these values were calculated and then normalized
+        <ul>
+          <li>Minimum,  Maximum,  Mean, and  Standard deviation</li>  
+        </ul>
+        A scatter plots of the data, two features at a time based off
+        <ul>
+          <li>sepal width vs. sepal length </li>
+          <li>petal width vs. petal length</li>
+        </ul>
+        <br>
+        A manual decision tree classifier based off of petal width and 
+        length  
+    </p>
+  </div>
+  <div class="col-sm-2"></div>                
+</div> 
 
 <div class="container" id="P4">
-    <div class="row"></div>
-        <div class="col-sm-4">
-            <a href="#page">
-              <img src="pics/car.jpg" alt="random" class="img-thumbnail">
-            </a>
-        </div>
-         <div class="col-sm-8">
-            <h1>Epa car data</h1>
-            <h5 >
-                Lorem ipsum dolor sit amet, consectetur 
-                adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea 
-                commodo consequat.
-            </h5>
-        </div>            
-    </div>
-</div>  
-
-
+  <div class="col-sm-4">
+  <a href="#page">
+      <img src="pics/car.jpg" alt="random" class="img-thumbnail">
+  </a>
+  </div>
+  <div class="col-sm-6" id="section">
+    <h1>Epa car data</h1>
+    <h5 >
+        Finds vehicles that are within a user provided range and, 
+        displays information (make, model) 
+        <br>about vehicles that fall withing that range 
+    </h5>
+    <p>Ask the user to choose from 3 options: 
+      <ul>
+        <li>Highway MPG</li>
+        <li>City MPG</li>
+        <li>Overall MPG</li>
+      </ul>
+      Prompt user to input the preferred way to produce the plot: 
+      <br>
+      <ul>
+        <li>Display on screen</li>
+        <li>Save to file.</li>                
+      </ul>
+      <br>
+  </div>            
+  <div class="col-sm-2"></div>
+</div>
 <footer class="container-fluid text-center">
   <p>Footer Text</p>
 </footer>
-
 </body>
-
 </html>
