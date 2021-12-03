@@ -1,0 +1,57 @@
+
+    #bround{
+    background-image: url(pics/background.jpg);   
+    height: 90%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+      
+  h1{
+    font-family: 'Playfair Display', serif;
+  }
+  p,ul,li,h5{
+    font-family: 'Lato', sans-serif;
+  }
+    
+  .navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+      
+  }
+    
+  footer {
+    background-color:black;
+    padding: 25px;
+  }
+
+  #P2,#P4{
+    background-color: rgb(236, 234, 234);
+    padding: 64px;
+    min-width: 100%;
+  }
+
+  #P1,#P3 {
+    background-color: rgb(255, 255, 255);
+    padding: 64px;
+    min-width: 100%;
+  }
+  .img-thumbnail {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+  }
+
+  .img-thumbnail:hover {
+    filter: none;
+    -webkit-filter: grayscale(0);
+  }
+  #section{
+    margin-left:75px ;
+  }
+  @media only screen and (max-device-width: 600px){
+    #section{
+      margin-left: auto;
+    }
+  }
+ 
+  
