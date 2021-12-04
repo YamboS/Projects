@@ -1,0 +1,1 @@
+For this program to function correctly the Matplotlib module needs to be installed
