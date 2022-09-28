@@ -9,6 +9,8 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" defer></script>
   <link rel="stylesheet" href="bootstrap.min.css">  
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script defer src="https://www.googletagmanager.com/gtag/js?id=G-B036YCTXQW"></script>
   <script defer>
@@ -42,13 +44,13 @@
   </div>
 </nav>
 
-<div class="jumbotron" id="bround" style="padding: 64px;color: rgb(255, 255, 255);">
+<div class="jumbotron" id="bround" style="padding: 64px 64px 40px 64px;color: rgb(255, 255, 255);">
   <div class="container text-center">
-    <h1>Project Portfolio <br> <span style="font-size:21px;">By Samuel S. Yambo</span></h1>      
+    <h1 data-aos="fade">Project Portfolio <br> <span style="font-size:21px;">By Samuel S. Yambo</span></h1>      
   </div>
 </div>
 
-<div class="container" id="Project1">
+<div class="container" id="Project1" data-aos="fade-right">
   <div class="col-sm-4">
     <a href="p1.html">
       <img src="pics/schedule.webp" decoding="async" alt="Cpu scheduler simulation" class="img-thumbnail">
@@ -75,7 +77,7 @@
   <div class="col-sm-2"></div>
 </div>   
 
-<div class="container" id="Project2">
+<div class="container" id="Project2" data-aos="fade-right">
   <div class="col-sm-4">
     <a href="p2.html">
       <img src="pics/list.png" decoding="async" alt="Linked list Project" class="img-thumbnail" loading="lazy">
@@ -97,7 +99,7 @@
   <div class="col-sm-2"></div>
 </div>
 
-<div class="container" id="Project3">
+<div class="container" id="Project3" data-aos="fade-right">
   <div class="col-sm-4">
     <a href="https://github.com/YamboS/Projects/tree/main/project%20source%20code/project%203">
       <img src="pics/flower.webp" decoding="async" alt="Iris flower set Project" class="img-thumbnail" loading="lazy">
@@ -124,7 +126,7 @@
   <div class="col-sm-2"></div>                
 </div> 
 
-<div class="container" id="Project4">
+<div class="container" id="Project4" data-aos="fade-right">
   <div class="col-sm-4">
   <a href="https://github.com/YamboS/Projects/tree/main/project%20source%20code/project%204">
       <img src="pics/car.webp" decoding="async" alt="Epa car data Project" class="img-thumbnail" loading="lazy">
@@ -154,6 +156,9 @@
   </div>            
   <div class="col-sm-2"></div>
 </div>
-
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 </body>
 </html>
