@@ -7,13 +7,16 @@
     background-size: 100%;
   }
   
-  h1,h2{
+  h1,h2,p,ul,li{
     font-family: 'Playfair Display', serif;
   }
-  p,ul,li{
-    font-family: 'Lato', sans-serif;
+  p,li{
+    color: gray;
   }
-    
+h2{
+  font-size: 14px;
+  font-weight: 700;
+}      
   .navbar {
     margin-bottom: 0;
     border-radius: 0;
