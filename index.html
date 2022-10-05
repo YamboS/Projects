@@ -4,13 +4,10 @@
   <title>Samuel Yambo's Project Portfolio | Computer Science</title>
   <meta name="description" content="Project portfolio for Samuel S. Yambo. A computer science student based in South Florida with a passion for problem solving and creative solutions.">
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" defer></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" defer></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1"> 
   <link rel="stylesheet" href="bootstrap.min.css">  
   <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-  
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />  
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script defer src="https://www.googletagmanager.com/gtag/js?id=G-B036YCTXQW"></script>
   <script defer>
@@ -26,7 +23,7 @@
 <nav class="navbar navbar-inverse navbar-fixed-top">
   <div class="container-fluid">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" aria-label="Dropdown button" data-target="#myNavbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
@@ -34,7 +31,7 @@
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
-        <li ><a style="color:gray" href="https://github.com/YamboS">My Github</a></li>
+        <li ><a href="https://github.com/YamboS">My Github</a></li>
         <li><a href="#Project1" >Project 1</a></li>
         <li><a href="#Project2" >Project 2</a></li>
         <li><a href="#Project3" >Project 3</a></li>
@@ -66,11 +63,13 @@
         <li>FCFS non-preemptive (partial results provided)</li>
         <li>SJF non-preemptive </li>
         <li>Multilevel Feedback Queue (absolute priority in higher queues)</li>
-        <ul>
+        <li style="list-style-type: none;">
+        <ul >
           <li>Queue 1 uses RR scheduling with Tq = 5</li>
           <li>Queue 2 uses RR scheduling with Tq = 10</li>
           <li>Queue 3 uses FCFS</li>
         </ul>
+      </li>
       </ul>
     </p>
   </div>                         
@@ -113,12 +112,12 @@
         <ul>
           <li>Minimum,  Maximum,  Mean, and  Standard deviation</li>  
         </ul>
-        <span style="color:gray">A scatter plots of the data, two features at a time based off</span>
+        <span style="color:rgb(96, 95, 95)">A scatter plots of the data, two features at a time based off</span>
         <ul>
           <li>sepal width vs. sepal length </li>
           <li>petal width vs. petal length</li>
         </ul>        
-         <span style="color:gray" >A manual decision tree classifier based off of petal width and length</span>
+         <span style="color:rgb(96, 95, 95)" >A manual decision tree classifier based off of petal width and length</span>
     </p>
   </div>
   <div class="col-sm-2"></div>                
@@ -144,7 +143,7 @@
         <li>City MPG</li>
         <li>Overall MPG</li>
       </ul>
-      <span style="color:gray">Prompt user to input the preferred way to produce the plot:</span>
+      <span style="color:rgb(96, 95, 95)">Prompt user to input the preferred way to produce the plot:</span>
       <br>
       <ul>
         <li>Display on screen</li>
@@ -154,6 +153,8 @@
   </div>            
   <div class="col-sm-2"></div>
 </div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" defer></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" defer></script>
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script>
   AOS.init();
