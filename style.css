@@ -1,3 +1,6 @@
+html{
+  scroll-behavior: smooth;
+}  
   #bround{    
     background-image: linear-gradient(to bottom right, green, blue);
     height: 90%;
