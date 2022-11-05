@@ -20,9 +20,15 @@ footer a{color:white;}
   .img-thumbnail:hover {filter: none;-webkit-filter: grayscale(0);}
   #section{margin-left:75px;}
   body{font-size: 2rem;}
+  .portrait{
+    height:clamp(200px, 40%,  400px);
+  }
   @media only screen and (max-device-width: 600px){
     #section{margin-left: auto;}
-    img{width: 235px;height: 160px;}
+    img{width:235px;height: 160px;}
+    .portrait{
+      margin-bottom: 32px;
+    }
   }
  
   
