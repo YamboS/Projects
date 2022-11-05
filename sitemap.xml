@@ -9,22 +9,27 @@
 
 <url>
   <loc>https://samyambo.com/</loc>
-  <lastmod>2022-10-10T20:18:40+00:00</lastmod>
+  <lastmod>2022-11-05T04:22:48+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://samyambo.com/p1.html</loc>
-  <lastmod>2022-10-10T20:18:40+00:00</lastmod>
+  <loc>https://samyambo.com/About-Me.html</loc>
+  <lastmod>2022-11-05T04:22:48+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://samyambo.com/p2.html</loc>
-  <lastmod>2022-10-10T20:18:40+00:00</lastmod>
+  <loc>https://samyambo.com/project-1.html</loc>
+  <lastmod>2022-11-05T04:22:48+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://samyambo.com/project-2.html</loc>
+  <lastmod>2022-11-05T04:22:48+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://samyambo.com/index.html</loc>
-  <lastmod>2022-10-10T20:18:40+00:00</lastmod>
+  <lastmod>2022-11-05T04:22:48+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 
