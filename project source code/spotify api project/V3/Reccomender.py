@@ -6,8 +6,8 @@ import itertools
 class reccomender:
 
     def __init__(self):
-        self.username = 'sodiumchloride249'
-        self.SPOTIPY_CLIENT_ID = '6b5a19f4d4074723bdafafe34281bb27'
+        self.username = ''
+        self.SPOTIPY_CLIENT_ID = ''
         self.SPOTIPY_REDIRECT_URI = 'https://google.com/'
         self.scope = "user-library-read playlist-modify-public playlist-modify-private playlist-read-private"
         self.attributes = ['danceability', 'acousticness', 'loudness', 'speechiness', 'tempo']
